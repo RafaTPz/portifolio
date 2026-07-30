@@ -828,7 +828,7 @@ body {
   }
 }
 
-/* ============ RESPONSIVE ============ */
+/* ============ RESPONSIVIDADE ============ */
 @media (max-width: 920px) {
   .home-hero {
     grid-template-columns: 1fr;

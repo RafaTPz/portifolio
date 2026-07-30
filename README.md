@@ -1,8 +1,7 @@
-<h1 align="center">Portfólio — Rafael Tadeu Praça</h1>
+<h1 align="center">Portfólio - Rafael Tadeu Praça</h1>
 
 <p align="center">
-  Portfólio pessoal convertido de HTML/CSS/JS puro para <strong>React + Vite</strong>,
-  com React Router, tema claro/escuro e design responsivo.
+  Portfólio pessoal
 </p>
 
 ## 💻 Tecnologias
