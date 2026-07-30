@@ -1,7 +1,7 @@
 export const projects = [
   {
     emoji: '📬',
-    title: 'JD Notify — Sistema de Notificações',
+    title: 'JD Notify - Sistema de Notificações',
     type: 'PI · 4º Semestre ADS',
     description:
       'Plataforma completa de comunicações por e-mail: API REST com autenticação JWT + refresh token + API Key, templates versionados, anexos (Cloudflare R2), agendamentos e painel web com dashboard.',
@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     emoji: '🐾',
-    title: 'Pata Amiga — Gestão para ONG de Animais',
+    title: 'Pata Amiga - Gestão para ONG de Animais',
     type: 'PI · 3º Semestre ADS',
     description:
       'Sistema desktop desenvolvido para auxiliar ONGs no gerenciamento de animais resgatados, com controle de documentos e acompanhamento correto dos tratamentos. Projeto com modelagem completa do banco e diagramas UML.',
@@ -35,7 +35,7 @@ export const projects = [
   },
   {
     emoji: '💈',
-    title: 'Amarillo Barber — Sistema para Barbearia',
+    title: 'Amarillo Barber - Sistema para Barbearia',
     type: 'PI · 2º Semestre ADS',
     description:
       'API desenvolvida com Laravel Breeze para gestão de barbearia: controle de estoque de produtos e agendamento de horários de clientes, centralizando a gestão do negócio em uma única plataforma.',

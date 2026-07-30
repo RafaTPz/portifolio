@@ -37,7 +37,7 @@ function ContatoPage() {
     <div className="container">
       <Reveal>
         <h1 className="page-title">Contato</h1>
-        <p className="page-subtitle">Onde me encontrar — respondo mais rápido pelo LinkedIn.</p>
+        <p className="page-subtitle">Onde me encontrar - respondo mais rápido pelo LinkedIn.</p>
       </Reveal>
 
       <div className="contact-grid">

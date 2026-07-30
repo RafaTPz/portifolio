@@ -45,7 +45,7 @@ function SobreMimPage() {
             <li>Desenvolvimento Full Stack com React, Node.js, Python e FastAPI</li>
             <li>Bancos de dados relacionais, NoSQL e otimização de consultas em grandes volumes</li>
             <li>Aplicações em tempo real (WebSockets) e apps mobile (Flutter, React Native)</li>
-            <li>Docker, AWS e CI/CD com GitHub Actions — atualmente estudando Microsoft Azure</li>
+            <li>Docker, AWS e CI/CD com GitHub Actions - atualmente estudando Microsoft Azure</li>
             <li>Boa comunicação, trabalho em equipe e aprendizado constante</li>
           </ul>
         </div>

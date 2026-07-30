@@ -56,7 +56,7 @@ function TrabalhosPage() {
       <Reveal>
         <h1 className="page-title">Trabalhos</h1>
         <p className="page-subtitle">
-          Projetos em destaque no meu GitHub — desenvolvidos em equipe durante os projetos
+          Projetos em destaque no meu GitHub - desenvolvidos em equipe durante os projetos
           integradores da FATEC.
         </p>
       </Reveal>

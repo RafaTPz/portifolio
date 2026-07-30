@@ -4,7 +4,7 @@ const experiences = [
   {
     role: 'Assistente de Pesquisa e Desenvolvimento',
     company: 'TechFilter',
-    period: 'abr 2026 — jul 2026 · Indaiatuba/SP',
+    period: 'abr 2026 - jul 2026 · Indaiatuba/SP',
     items: [
       'Plataforma web e mobile de telemetria industrial em tempo real para tratamento e reúso de água',
       'Otimização de consultas em base com 12M+ de registros: relatórios de ~7s para menos de 150ms',
@@ -17,8 +17,8 @@ const experiences = [
   },
   {
     role: 'Estagiário de Desenvolvimento',
-    company: 'FIEC — Fundação Indaiatubana de Educação e Cultura',
-    period: 'mar 2024 — mar 2026 · Indaiatuba/SP',
+    company: 'FIEC - Fundação Indaiatubana de Educação e Cultura',
+    period: 'mar 2024 - mar 2026 · Indaiatuba/SP',
     items: [
       'Sistema de controle de estoque dos laboratórios com QR Code',
       'App mobile para leitura de QR Code de produtos químicos',
@@ -35,12 +35,12 @@ const education = [
   {
     course: 'Análise e Desenvolvimento de Sistemas',
     school: 'FATEC Indaiatuba',
-    period: 'jul 2024 — ago 2027 · 4º de 6 semestres',
+    period: 'jul 2024 - ago 2027',
   },
   {
-    course: 'Técnico em Informática',
-    school: 'FIEC - Escola de Qualificação Profissional',
-    period: 'jan 2023 — jul 2024 · concluído',
+    course: 'Técnico em Informática para Internet',
+    school: 'FIEC - Fundação Indaiatubana de Educação e Cultura',
+    period: 'jan 2023 - jul 2024 · concluído',
   },
 ]
 
@@ -71,7 +71,7 @@ function CurriculumPage() {
       <Reveal>
         <h1 className="page-title">Curriculum</h1>
         <p className="page-subtitle">
-          Desenvolvedor Full Stack — APIs, bancos de dados relacionais e aplicações em tempo
+          Desenvolvedor Full Stack - APIs, bancos de dados relacionais e aplicações em tempo
           real. Atualmente estudando Microsoft Azure.
         </p>
       </Reveal>
