@@ -1,5 +1,6 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import { SunIcon, MoonIcon } from './icons'
 
 const links = [
   { to: '/', label: 'Home', end: true },
@@ -12,6 +13,24 @@ const links = [
 
 function Navbar({ theme, onToggleTheme }) {
   const [menuOpen, setMenuOpen] = useState(false)
+
+  // Trava o scroll da página enquanto o menu mobile está aberto
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? 'hidden' : ''
+    return () => {
+      document.body.style.overflow = ''
+    }
+  }, [menuOpen])
+
+  // Fecha o menu se a tela voltar ao tamanho desktop
+  useEffect(() => {
+    const mq = window.matchMedia('(min-width: 921px)')
+    const onChange = (e) => {
+      if (e.matches) setMenuOpen(false)
+    }
+    mq.addEventListener('change', onChange)
+    return () => mq.removeEventListener('change', onChange)
+  }, [])
 
   return (
     <header className="navbar">
@@ -40,10 +59,17 @@ function Navbar({ theme, onToggleTheme }) {
             type="button"
             className="theme-toggle"
             onClick={onToggleTheme}
+            role="switch"
+            aria-checked={theme === 'dark'}
             aria-label={theme === 'light' ? 'Ativar tema escuro' : 'Ativar tema claro'}
             title={theme === 'light' ? 'Tema escuro' : 'Tema claro'}
           >
-            {theme === 'light' ? '🌙' : '☀️'}
+            <span className={`theme-option ${theme === 'light' ? 'active' : ''}`}>
+              <SunIcon /> Light
+            </span>
+            <span className={`theme-option ${theme === 'dark' ? 'active' : ''}`}>
+              <MoonIcon /> Dark
+            </span>
           </button>
 
           <button

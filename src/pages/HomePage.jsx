@@ -31,7 +31,7 @@ function HomePage() {
             &gt; <Typewriter phrases={phrases} />
           </h2>
           <p className="hero-quote">
-            <strong>"Construir sistemas para facilitar o dia a dia"</strong> — desenvolvedor
+            Desenvolvedor
             full stack de Indaiatuba/SP com experiência em telemetria industrial e sistemas
             institucionais, cursando Análise e Desenvolvimento de Sistemas na FATEC.
           </p>

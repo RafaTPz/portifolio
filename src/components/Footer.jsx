@@ -5,7 +5,6 @@ function Footer() {
     <footer className="footer">
       <div className="footer-inner container">
         <p>
-          Feito com 💙 por{' '}
           <a href="https://github.com/RafaTPz" target="_blank" rel="noreferrer">
             Rafael Tadeu Praça
           </a>{' '}
