@@ -31,7 +31,7 @@ function SobreMimPage() {
             </p>
           </div>
           <div className="profile-image-wrap">
-            <img className="profile-photo" src="/images/eu.jpg" alt="Rafael Tadeu Praça" />
+            <img className="profile-photo" src={`${import.meta.env.BASE_URL}images/eu.jpg`} alt="Rafael Tadeu Praça" />
           </div>
         </div>
       </Reveal>

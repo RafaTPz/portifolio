@@ -60,7 +60,7 @@ function HomePage() {
 
         <Reveal className="hero-visual">
           <div className="avatar-ring">
-            <img className="avatar" src="/images/eu.jpg" alt="Foto de Rafael Tadeu Praça" />
+            <img className="avatar" src={`${import.meta.env.BASE_URL}images/eu.jpg`} alt="Foto de Rafael Tadeu Praça" />
           </div>
         </Reveal>
       </section>
@@ -70,7 +70,7 @@ function HomePage() {
         <div className="tech-grid">
           {technologies.map((tech) => (
             <div className="tech-item" key={tech.id}>
-              <img src={`/images/${tech.icon}`} alt="" loading="lazy" />
+              <img src={`${import.meta.env.BASE_URL}images/${tech.icon}`} alt="" loading="lazy" />
               <span>{tech.label}</span>
             </div>
           ))}
